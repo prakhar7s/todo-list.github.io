@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="style.css">
+    <title>Practice</title>
+</head>
+<body>
+    <header>
+        <h1  class="todo-app">Todo List App &#128526;</h1>
+ </header>
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button">
+            <i class='fas fa-plus-square'></i>
+        </button>
+        <div class="select">
+                <select name="todos" class="filter">
+                    <option value='all'>All</option>
+                    <option value='completed'>Completed</option>
+                    <option value='uncompleted'>Uncompleted</option>
+                </select>
+        </div>
+    </form>
+    
+    <div class="todo-container">
+        <ul class="new-todo"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
